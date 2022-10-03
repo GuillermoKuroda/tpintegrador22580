@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "tipografia";
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "titulos";
+    src: url(fonts/OpenSans-Medium.ttf);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "tipografia" !important;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 8fr 8fr 7fr 6fr 1.5fr !important;
+}
+
+a {
+    text-decoration: none !important;
+    font-family: "titulos";
+    color: white !important;
+}
+
+header {
+    background-color: rgb(69, 76, 76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-weight: bold;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 50px;
+    width: 230px;
+    gap: 5px
+}
+
+#logoimagen {
+    width: 87px;
+    height: 50px;
+    border-style: none;
+}
+
+nav {
+    font-size: 14px;
+    display: flex;
+    margin-right: 10px;
+    gap: 20px;
+    width: 800px;
+}
+
+#especial1:hover {
+    color: rgb(135, 138, 135) !important;
+}
+
+#especial2:hover {
+    color: rgb(37, 231, 37) !important;
+}
+
+
+#carouselExampleControls .carousel-item img {
+    height: 75vh;
+    filter: brightness(60%)
+}
+
+.carousel-caption {
+    text-align: right !important;
+    position: relative;
+    left: 800px !important;
+    bottom: 90px !important;
+    width: 350px;
+}
+
+#oradores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#oradortitulo {
+    font-size: 15px;
+    text-align: center;
+}
+
+#oradortituloppal {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-warning {
+    color: black !important;
+    font-weight: bolder !important;
+}
+
+.btn-primary {
+    font-weight: bolder !important;
+}
+
+.btn-secondary {
+    font-weight: bolder !important;
+}
+
+.btn-danger {
+    font-weight: bolder !important;
+}
+
+#ciudad {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#playa {
+    /*No encontre la forma de alinear 50% c/u*/
+    width: 100% !important;
+    height: 65vh;
+    border-style: solid !important;
+    border-color: white;
+    border-width: 0px 2px 0px 0px !important;
+    padding: none !important;
+    margin: none !important
+}
+
+#textociudad {
+    /*No encontre la forma de alinear 50% c/u*/
+    background-color: rgb(69, 76, 76);
+    width: 50% !important;
+    height: 65vh;
+    padding: 20px !important;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 10px !important;
+    padding-top: 25px !important;
+}
+
+h2 {
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+
+p {
+    font-size: 10px !important;
+}
+
+span {
+    text-decoration: underline dotted;
+}
+
+label input {
+    width: 250px;
+    height: 30px;
+    margin: 5px 0px 5px;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    font-family: "tipografia";
+    margin: 5px 0px 2px;
+}
+
+#enviar {
+    width: 500px;
+    height: 30px;
+    background-color: rgb(106, 170, 10);
+    border: solid rgb(106, 170, 10);
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    margin: 2px 0px 10px;
+}
+
+#recordatorio {
+    font-size: 8px !important;
+    text-align: start;
+    padding: 1px 0px 10px;
+}
+
+footer {
+    background-color: rgb(27, 77, 105);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+footer a {
+    width: 100px;
+}
